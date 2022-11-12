@@ -41,7 +41,7 @@ function NavBar() {
                 {
                   menu.map((item)=>(
                     <Nav.Link to={item.path} key={item.name}>
-                      <div className="list_item">{item.name}</div>
+                      <div>{item.name}</div>
                     </Nav.Link>
                   ))
                 }
