@@ -1,11 +1,10 @@
-import NavBar from './NavBar/NavBar'
-import Banner from './Banner/Banner';
+
+import ClientTable from './ClientTable/ClientTable';
 
 function App() {
   return (
     <>
-      <NavBar />
-      <Banner />
+      <ClientTable />
     </>
   );
 }
